@@ -8,6 +8,8 @@ import Container from "@/components/ui/Container";
 import ProductGrid from "@/components/products/ProductGrid";
 import type { Product, ProductVariant } from "@/types/product";
 import { useLanguage } from "@/context/LanguageContext";
+import { company } from "@/data/company";
+import { whatsappHref } from "@/lib/phone";
 
 interface ProductDetailClientProps {
   product: Product;
@@ -31,12 +33,18 @@ export default function ProductDetailClient({
   const displayDesc =
     isArabic && product.descriptionAr ? product.descriptionAr : product.description;
 
-  const enquiryParams = new URLSearchParams({
-    product: product.slug,
-    variant: selectedVariant.code,
-  }).toString();
+  const quoteMessage = [
+    "Hello AL MASAR,",
+    "",
+    "I would like to request a quote.",
+    "",
+    `Product: ${product.title}`,
+    `SKU: ${selectedVariant.code}`,
+    `Variant: ${selectedVariant.title}`,
+  ].join("\n");
 
-  const enquiryUrl = `/contact?${enquiryParams}`;
+  const whatsappQuoteUrl = whatsappHref(company.quoteWhatsapp, quoteMessage);
+  const selectedImage = selectedVariant.image || product.image;
 
   return (
     <div className="min-h-screen bg-[#07111F] py-5 text-white sm:py-10 lg:py-12">
@@ -54,21 +62,15 @@ export default function ProductDetailClient({
         <div className="grid grid-cols-1 gap-5 rounded-xl border border-white/[0.08] bg-[#0D1727] p-3 sm:gap-7 sm:rounded-2xl sm:p-5 sm:shadow-xl lg:grid-cols-12 lg:gap-8 lg:rounded-3xl lg:p-8">
           {/* Left Column: Single Product Image */}
           <div className="lg:col-span-5">
-            <div className="relative flex aspect-[4/3] w-full items-center justify-center overflow-hidden rounded-lg bg-[#07111F] sm:aspect-square sm:rounded-2xl">
-              {product.image && !product.image.includes("default-product") ? (
+            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-[#07111F] sm:rounded-2xl">
+              {selectedImage ? (
                 <Image
-                  src={
-                    product.image.startsWith("/") ||
-                      product.image.startsWith("http://") ||
-                      product.image.startsWith("https://")
-                      ? product.image
-                      : `/${product.image}`
-                  }
+                  src={selectedImage}
                   alt={displayTitle}
                   fill
                   priority
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 40vw"
-                  className="object-contain object-center p-1.5 sm:p-4"
+                  className="h-full w-full object-cover object-center"
                 />
               ) : (
                 <div className="flex h-full w-full items-center justify-center">
@@ -128,13 +130,16 @@ export default function ProductDetailClient({
               </div>
 
               <div className="mt-3 sm:mt-4">
-                <Link
-                  href={enquiryUrl}
-                  className="inline-flex h-10 w-full min-h-[40px] items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-[#6EA8FF] via-[#8A63E8] to-[#C45BCB] px-4 text-[12px] font-bold text-white transition hover:brightness-110 sm:h-12 sm:min-h-[44px] sm:rounded-xl sm:px-6 sm:text-sm sm:shadow-lg sm:shadow-[#8A63E8]/20"
+                <a
+                  href={whatsappQuoteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={isArabic ? "طلب تسعيرة عبر واتساب" : "Request a quote on WhatsApp"}
+                  className="inline-flex h-10 w-full min-h-[40px] items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-[#6EA8FF] via-[#8A63E8] to-[#C45BCB] px-4 text-[12px] font-bold text-white transition hover:brightness-110 active:scale-[0.99] sm:h-12 sm:min-h-[44px] sm:rounded-xl sm:px-6 sm:text-sm sm:shadow-lg sm:shadow-[#8A63E8]/20"
                 >
                   <MessageCircle className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
-                  <span>{isArabic ? "طلب تسعيرة لهذا المنتج" : "Request a Quote  "}</span>
-                </Link>
+                  <span>{isArabic ? "طلب تسعيرة عبر واتساب" : "Request a Quote"}</span>
+                </a>
               </div>
             </div>
           </div>

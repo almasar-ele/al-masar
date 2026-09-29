@@ -24,6 +24,9 @@ export default function BrandLogoCard({ brand, isDuplicate = false }: BrandLogoC
           alt={brand.name}
           width={160}
           height={56}
+          loading="lazy"
+          decoding="async"
+          fetchPriority="low"
           style={{ width: "auto", height: "auto" }}
           className="h-auto w-auto max-h-10 max-w-[92px] shrink-0 object-contain grayscale brightness-200 opacity-75 transition-all duration-300 group-hover:scale-[1.04] group-hover:grayscale-0 group-hover:brightness-100 group-hover:opacity-100 sm:max-h-14 sm:max-w-[120px]"
           onError={() => setImageError(true)}

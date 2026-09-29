@@ -15,7 +15,8 @@ export default function ProductCard({
   className?: string;
 }) {
   const { isArabic } = useLanguage();
-  const isDefaultImage = !product.image || product.image.includes("default-product");
+  const imageSrc = product.variants[0]?.image || product.image;
+  const isDefaultImage = !imageSrc || imageSrc.includes("default-product");
 
   const displayTitle = isArabic && product.titleAr ? product.titleAr : product.title;
   const displayCategory =
@@ -30,14 +31,6 @@ export default function ProductCard({
     : product.variantCount === 1
     ? "1 Variant"
     : `${product.variantCount} Sizes / Variants`;
-
-  const imageSrc =
-    product.image &&
-    !product.image.startsWith("/") &&
-    !product.image.startsWith("http://") &&
-    !product.image.startsWith("https://")
-      ? `/${product.image}`
-      : product.image;
 
   return (
     <Link
@@ -55,6 +48,9 @@ export default function ProductCard({
             alt={displayTitle}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            loading="lazy"
+            fetchPriority="low"
+            quality={75}
             className="object-cover object-center transition-transform duration-500 group-hover:scale-[1.025]"
           />
         ) : (

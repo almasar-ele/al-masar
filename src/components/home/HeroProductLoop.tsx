@@ -116,6 +116,9 @@ export default function HeroProductLoop() {
                 sizes="(max-width: 640px) 86vw, (max-width: 1024px) 50vw, 36vw"
                 className="object-contain object-center drop-shadow-[0_28px_38px_rgba(0,0,0,0.32)]"
                 priority={index === 0}
+                loading={index === 0 ? "eager" : "lazy"}
+                fetchPriority={index === 0 ? "high" : "low"}
+                quality={80}
               />
             </div>
           </div>

@@ -20,6 +20,9 @@ export default function OurStory() {
               fill
               className="object-cover object-center"
               sizes="(max-width: 768px) 100vw, 50vw"
+              loading="lazy"
+              fetchPriority="low"
+              quality={75}
             />
           </div>
 

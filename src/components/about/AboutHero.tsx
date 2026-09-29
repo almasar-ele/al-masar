@@ -32,12 +32,12 @@ export default function AboutHero() {
             </p>
 
             {/* Main Heading */}
-            <h1 className="about-hero-heading mb-4 text-[34px] font-extrabold leading-[1.02] tracking-[-0.03em] sm:mb-6 sm:text-[54px] sm:leading-[0.98] lg:text-[68px] xl:text-[78px]">
+            <h1 className="about-hero-heading mb-4 text-[34px] font-extrabold leading-[1.02] tracking-[-0.03em] sm:mb-6 sm:text-[54px] sm:leading-[1.05] lg:text-[68px] xl:text-[78px]">
               <span className="about-hero-line-1 block text-white">
-                {isArabic ? "مبنية على الموثوقية." : "Built on Reliability."}
+                {isArabic ? "مبنية على الموثوقية" : "Built on Reliability"}
               </span>
-              <span className="about-hero-line-2 block bg-gradient-to-r from-[#6EA8FF] via-[#8A63E8] to-[#C45BCB] bg-clip-text text-transparent">
-                {isArabic ? "مدفوعة بالتقدم." : "Driven by Progress."}
+              <span className="about-hero-line-2 block pb-[0.08em] bg-gradient-to-r from-[#6EA8FF] via-[#8A63E8] to-[#C45BCB] bg-clip-text text-transparent">
+                {isArabic ? "مدفوعة بالتقدم" : "Driven by Progress"}
               </span>
             </h1>
 
