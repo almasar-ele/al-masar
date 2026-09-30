@@ -15,7 +15,7 @@ export default function BrandLogoCard({ brand, isDuplicate = false }: BrandLogoC
   return (
     <div
       aria-hidden={isDuplicate ? "true" : undefined}
-      className="group flex h-20 w-32 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-[#101A2B] px-3 py-2 transition-all duration-300 hover:border-[#8A63E8]/40 hover:bg-[#142033] sm:h-28 sm:w-64 sm:justify-start sm:gap-5 sm:rounded-2xl sm:px-5 sm:py-3"
+      className="group flex h-20 w-36 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-[#101A2B] px-4 py-3 transition-all duration-300 hover:border-[#8A63E8]/40 hover:bg-[#142033] hover:shadow-lg hover:shadow-[#8A63E8]/10 sm:h-24 sm:w-48 sm:rounded-2xl sm:px-6 sm:py-4"
     >
       {brand.logo && !imageError ? (
         /* eslint-disable-next-html-element-suppression */
@@ -28,14 +28,10 @@ export default function BrandLogoCard({ brand, isDuplicate = false }: BrandLogoC
           decoding="async"
           fetchPriority="low"
           style={{ width: "auto", height: "auto" }}
-          className="h-auto w-auto max-h-10 max-w-[92px] shrink-0 object-contain grayscale brightness-200 opacity-75 transition-all duration-300 group-hover:scale-[1.04] group-hover:grayscale-0 group-hover:brightness-100 group-hover:opacity-100 sm:max-h-14 sm:max-w-[120px]"
+          className="h-auto w-auto max-h-11 max-w-[110px] shrink-0 object-contain grayscale brightness-200 opacity-75 transition-all duration-300 group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100 group-hover:opacity-100 sm:max-h-14 sm:max-w-[140px]"
           onError={() => setImageError(true)}
         />
       ) : null}
-
-      <span className="hidden min-w-0 flex-1 text-left text-[12px] font-semibold uppercase leading-snug tracking-[0.1em] text-[#AAB4C3] transition-colors duration-300 group-hover:text-white sm:block">
-        {brand.name}
-      </span>
     </div>
   );
 }

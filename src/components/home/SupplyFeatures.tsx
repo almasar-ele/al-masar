@@ -27,10 +27,10 @@ export default function SupplyFeatures() {
           </p>
         </div>
 
-        {/* Feature Grid */}
-        <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4 lg:gap-6">
+        {/* Feature Grid: 1 col mobile, 2 col tablet, 4 col desktop */}
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4 lg:gap-6">
           {t.features.map((feature, idx) => (
-            <div key={feature.number} className="feature-card-item">
+            <div key={feature.number} className="feature-card-item h-full">
               <SupplyFeatureCard
                 number={feature.number}
                 title={feature.title}

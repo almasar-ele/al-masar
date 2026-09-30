@@ -158,7 +158,7 @@ export const PRODUCT_IMAGE_START_IDS = [
 export function getProductImagePath(variantId: number) {
   let low = 0;
   let high = PRODUCT_IMAGE_START_IDS.length - 1;
-  let selected = PRODUCT_IMAGE_START_IDS[0];
+  let selected: number = PRODUCT_IMAGE_START_IDS[0];
 
   while (low <= high) {
     const mid = Math.floor((low + high) / 2);

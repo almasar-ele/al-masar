@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 import { gsap, refreshScrollTrigger } from "@/lib/gsapClient";
 import ProductCard from "@/components/products/ProductCard";
 import { products } from "@/data/products";
@@ -90,9 +91,9 @@ export default function FeaturedProducts() {
         if (btn) {
           tl.fromTo(
             btn,
-            { opacity: 0, x: isArabic ? -20 : 20 },
-            { opacity: 1, x: 0, duration: 0.7, ease: "power3.out" },
-            0.2
+            { opacity: 0, y: 20 },
+            { opacity: 1, y: 0, duration: 0.7, ease: "power3.out" },
+            0.4
           );
         }
 
@@ -194,6 +195,25 @@ export default function FeaturedProducts() {
               <ProductCard product={product} />
             </div>
           ))}
+        </div>
+
+        {/* Centered Action Button */}
+        <div className="mt-8 flex justify-center sm:mt-12">
+          <Link
+            href="/products"
+            className="featured-btn group inline-flex h-12 items-center justify-center gap-2.5 rounded-xl bg-gradient-to-r from-[#6EA8FF] via-[#8A63E8] to-[#C45BCB] px-7 text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-[#8A63E8]/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-[#8A63E8]/35 hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-[#8A63E8] focus:ring-offset-2 focus:ring-offset-[#07111F] active:scale-[0.98] sm:h-14 sm:px-10 sm:text-sm"
+          >
+            <span>{t.viewAll}</span>
+            <span
+              className={`text-base font-bold transition-transform duration-300 ${
+                isArabic
+                  ? "group-hover:-translate-x-1"
+                  : "group-hover:translate-x-1"
+              }`}
+            >
+              {isArabic ? "←" : "→"}
+            </span>
+          </Link>
         </div>
       </div>
     </section>
