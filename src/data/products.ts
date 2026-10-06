@@ -289,10 +289,10 @@ const catalogue: readonly CatalogueItem[] = [
   { id: 218, title: "STEEL CABLE PVC COATED PSSCT 150X4.6 MM" },
   { id: 219, title: "STEEL CABLE PVC COATED PSSCT 200X4.6 MM" },
   { id: 220, title: "STEEL CABLE PVC COATED PSSCT 300X4.6 MM" },
-  { id: 221, title: "CABLE MARKER MS-65 MM BLACK" },
-  { id: 222, title: "CABLE MARKER MS-100 MM BLACK" },
-  { id: 223, title: "CABLE MARKER MS-65 MM WHITE" },
-  { id: 224, title: "CABLE MARKER MS-100 MM WHITE" },
+  { id: 221, title: "CABLE MARKER STRIP MS-65 MM BLACK" },
+  { id: 222, title: "CABLE MARKER STRIP MS-100 MM BLACK" },
+  { id: 223, title: "CABLE MARKER STRIP MS-65 MM WHITE" },
+  { id: 224, title: "CABLE MARKER STRIP MS-100 MM WHITE" },
   { id: 225, title: "TIE MOUNT TM-25 MM" },
   { id: 226, title: "TIE MOUNT TM-30 MM" },
   { id: 227, title: "PLASTIC CONNECTOR PC-10 MM" },
@@ -818,6 +818,59 @@ const catalogue: readonly CatalogueItem[] = [
   { id: 747, title: "CABLE JOINT KIT M11" },
   { id: 748, title: "CABLE JOINT KIT M12" },
   { id: 749, title: "CABLE JOINT KIT M13" },
+  { id: 750, title: "PVC FLEXIBLE ADAPTOR 25MM AD-25 [DPA3-25]" },
+  { id: 751, title: "PIN TYPE LUGS 10 MM BLACK WITH INSULATED" },
+  { id: 752, title: "COMPACT SPLICING CONNECTOR PCT-412" },
+  { id: 753, title: "COMPACT SPLICING CONNECTOR PCT-413" },
+  { id: 754, title: "COMPACT SPLICING CONNECTOR PCT-414" },
+  { id: 755, title: "NEWTRAL LINK 8WAY 8X12 WITH BASE 10HOLES" },
+  { id: 756, title: "NEWTRAL LINK 8WAY 8X12 WITHOUT BASE 23 HOLES" },
+  { id: 757, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 350/9.3 [1x35]" },
+  { id: 758, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 500/13.4 [1x50]" },
+  { id: 759, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 500/16.5 [1x70]" },
+  { id: 760, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 750/22.6 [1x95]" },
+  { id: 761, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 1100/28.6 [4x10.6]" },
+  { id: 762, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 1300/33.8 [4x25]" },
+  { id: 763, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 1500/38.12 [4x35]" },
+  { id: 764, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 1700/43.12 [4x50]" },
+  { id: 765, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 2000/55.16 [4x70]" },
+  { id: 766, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 2700/65.19 [4x120]" },
+  { id: 767, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 2700/75.22 [4x150]" },
+  { id: 768, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 3500/85.25 [4x240]" },
+  { id: 769, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 3500/95.30 [4x240]" },
+  { id: 770, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 4000/105.30 [4x300]" },
+  { id: 771, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 4700/120.39 [4x400]" },
+  { id: 772, title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR 5000/130.40 [630 RED]" },
+  { id: 773, title: "ALUMINIUM CABLE CLEAT ATC 30-40" },
+  { id: 774, title: "ALUMINIUM CABLE CLEAT ATC 40-50" },
+  { id: 775, title: "ALUMINIUM CABLE CLEAT ATC 51-57" },
+  { id: 776, title: "ALUMINIUM CABLE CLEAT ATC 57-64" },
+  { id: 777, title: "ALUMINIUM CABLE CLEAT ATC 64-70" },
+  { id: 778, title: "ALUMINIUM CABLE CLEAT ATC 70-76" },
+  { id: 779, title: "ALUMINIUM CABLE CLEAT ATC 76-83" },
+  { id: 780, title: "ALUMINIUM CABLE CLEAT ATC 95-101" },
+  { id: 781, title: "ALUMINIUM TREFOIL CABLE CLEAT ATFC 45-60" },
+  { id: 782, title: "ALUMINIUM TREFOIL CABLE CLEAT ATFC 60-75" },
+  { id: 783, title: "PVC GROMMET 20 MM WHITE GM-20" },
+  { id: 784, title: "PVC GROMMET25 MM WHITE GM-25" },
+  { id: 785, title: "PVC GROMMET 32 MM WHITE GM-32" },
+  { id: 786, title: "PRINTER C-280T" },
+  { id: 787, title: "RIBBON LB-280 BLACK" },
+  { id: 788, title: "SHRINK TUBE END CAP WSEM-12 [6-35] SINGLE" },
+  { id: 789, title: "SHRINK TUBE END CAP WRSFM-16" },
+  { id: 790, title: "SHRINK TUBE END CAP WRSFM-20" },
+  { id: 791, title: "SHRINK TUBE END CAP WRSFM-25" },
+  { id: 792, title: "SHRINK TUBE END CAP WRSFM-30 [50-240] SINGLE" },
+  { id: 793, title: "SHRINK TUBE END CAP WRSFM-35" },
+  { id: 794, title: "SHRINK TUBE END CAP WRSFM-40 [300] SINGLE" },
+  { id: 795, title: "SHRINK TUBE END CAP WRSFM-55 [630] SINGLE" },
+  { id: 796, title: "SHRINK TUBE END CAP WRSFM-75 [94-240] 4 CORE" },
+  { id: 797, title: "SHRINK TUBE END CAP WRSFM-100 [300] 4 CORE" },
+  { id: 798, title: "SHRINK TUBE END CAP WRSFM-120 [630] RED" },
+  { id: 799, title: "SHRINK TUBE END CAP WRSFM-140 [630] RED" },
+  { id: 800, title: "BASE PLATE 15X15 CM" },
+  { id: 801, title: "BASE PLATE 8X15 CM" },
+  { id: 802, title: "BASE PLATE DOUBLE CHANNEL 12 HOLE" },
 ];
 
 /**
@@ -856,7 +909,7 @@ const imageRanges: readonly ImageRange[] = [
   { start: 125, end: 126, image: "/images/products/product-125.jpg", mainCategory: "Conduit & Fittings" },
   { start: 127, end: 127, image: "/images/products/product-127.jpg", mainCategory: "Conduit & Fittings" },
   { start: 128, end: 129, image: "/images/products/product-128.jpg", mainCategory: "Support Systems" },
-  { start: 130, end: 135, image: "/images/products/product-130.jpg", mainCategory: "Support Systems" },
+  { start: 130, end: 135, image: "/images/products/product-128.jpg", mainCategory: "Support Systems" },
   { start: 136, end: 137, image: "/images/products/product-136.jpg", mainCategory: "Conduit & Fittings" },
   { start: 138, end: 140, image: "/images/products/product-138.jpg", mainCategory: "Conduit & Fittings" },
   { start: 141, end: 143, image: "/images/products/product-141.jpg", mainCategory: "Tools & Accessories" },
@@ -869,6 +922,7 @@ const imageRanges: readonly ImageRange[] = [
   { start: 157, end: 159, image: "/images/products/product-157.jpg", mainCategory: "Cable Management" },
   { start: 160, end: 161, image: "/images/products/product-160.jpg", mainCategory: "Conduit & Fittings" },
   { start: 162, end: 163, image: "/images/products/product-162.jpg", mainCategory: "Conduit & Fittings" },
+  { start: 750, end: 750, image: "/images/products/product-750.jpg", mainCategory: "Flexible Conduit" },
   { start: 164, end: 171, image: "/images/products/product-164.jpg", mainCategory: "Conduit & Fittings" },
   { start: 172, end: 173, image: "/images/products/product-172.jpg", mainCategory: "Conduit & Fittings" },
   { start: 174, end: 177, image: "/images/products/product-174.jpg", mainCategory: "Conduit & Fittings" },
@@ -886,7 +940,8 @@ const imageRanges: readonly ImageRange[] = [
   { start: 211, end: 213, image: "/images/products/product-211.jpg", mainCategory: "Grounding" },
   { start: 214, end: 217, image: "/images/products/product-214.jpg", mainCategory: "Cable Management" },
   { start: 218, end: 220, image: "/images/products/product-218.jpg", mainCategory: "Cable Management" },
-  { start: 221, end: 224, image: "/images/products/product-221.jpg", mainCategory: "Cable Management" },
+  { start: 221, end: 222, image: "/images/products/product-221.jpg", mainCategory: "Cable Management" },
+  { start: 223, end: 224, image: "/images/products/product-223.jpg", mainCategory: "Cable Management" },
   { start: 225, end: 226, image: "/images/products/product-225.jpg", mainCategory: "Support Systems" },
   { start: 227, end: 229, image: "/images/products/product-227.jpg", mainCategory: "Conduit & Fittings" },
   { start: 230, end: 235, image: "/images/products/product-230.jpg", mainCategory: "Conduit & Fittings" },
@@ -897,7 +952,9 @@ const imageRanges: readonly ImageRange[] = [
   { start: 247, end: 252, image: "/images/products/product-247.jpg", mainCategory: "Wiring Accessories" },
   { start: 253, end: 260, image: "/images/products/product-253.jpg", mainCategory: "Cable Management" },
   { start: 261, end: 268, image: "/images/products/product-261.jpg", mainCategory: "Cable Management" },
-  { start: 269, end: 271, image: "/images/products/product-269.jpg", mainCategory: "Tools & Accessories" },
+  { start: 269, end: 269, image: "/images/products/product-269.jpg", mainCategory: "Tools & Accessories" },
+  { start: 270, end: 270, image: "/images/products/product-751.jpg", mainCategory: "Tools & Accessories" },
+  { start: 271, end: 271, image: "/images/products/product-752.jpg", mainCategory: "Tools & Accessories" },
   { start: 272, end: 274, image: "/images/products/product-272.jpg", mainCategory: "Tools & Accessories" },
   { start: 275, end: 275, image: "/images/products/product-275.jpg", mainCategory: "Tools & Accessories" },
   { start: 276, end: 277, image: "/images/products/product-276.jpg", mainCategory: "Tools & Accessories" },
@@ -976,6 +1033,22 @@ const imageRanges: readonly ImageRange[] = [
   { start: 739, end: 742, image: "/images/products/product-739.jpg", mainCategory: "Tools & Accessories" },
   { start: 743, end: 746, image: "/images/products/product-743.jpg", mainCategory: "Tools & Accessories" },
   { start: 747, end: 749, image: "/images/products/product-747.jpg", mainCategory: "Conduit & Fittings" },
+  { start: 751, end: 751, image: "/images/products/product-753.jpg", mainCategory: "Glands & Lugs" },
+  { start: 752, end: 752, image: "/images/products/product-754.jpg", mainCategory: "Wiring Accessories" },
+  { start: 753, end: 753, image: "/images/products/product-755.jpg", mainCategory: "Wiring Accessories" },
+  { start: 754, end: 754, image: "/images/products/product-756.jpg", mainCategory: "Wiring Accessories" },
+  { start: 755, end: 755, image: "/images/products/product-757.jpg", mainCategory: "Wiring Accessories" },
+  { start: 756, end: 756, image: "/images/products/product-758.jpg", mainCategory: "Wiring Accessories" },
+  { start: 757, end: 772, image: "/images/products/product-759.jpg", mainCategory: "Cable Management" },
+  { start: 773, end: 780, image: "/images/products/product-760.jpg", mainCategory: "Support Systems" },
+  { start: 781, end: 782, image: "/images/products/product-761.jpg", mainCategory: "Support Systems" },
+  { start: 783, end: 785, image: "/images/products/product-762.jpg", mainCategory: "Wiring Accessories" },
+  { start: 786, end: 786, image: "/images/products/product-763.jpg", mainCategory: "Tools & Accessories" },
+  { start: 787, end: 787, image: "/images/products/product-764.jpg", mainCategory: "Tools & Accessories" },
+  { start: 788, end: 799, image: "/images/products/product-765.jpg", mainCategory: "Cable Management" },
+  { start: 800, end: 800, image: "/images/products/product-766.jpg", mainCategory: "Support Systems" },
+  { start: 801, end: 801, image: "/images/products/product-767.jpg", mainCategory: "Support Systems" },
+  { start: 802, end: 802, image: "/images/products/product-768.jpg", mainCategory: "Support Systems" },
 ];
 
 const range = (start: number, end: number): number[] =>
@@ -986,147 +1059,355 @@ const range = (start: number, end: number): number[] =>
  * Example: EMT CLAMP 1 HOLE = one product; 1/2'' UL, 3/4'' CH, etc. = variants.
  */
 const groups: readonly ProductGroup[] = [
-  { id: "emt-conduit-pipe", slug: "emt-conduit-pipe", title: "EMT CONDUIT PIPE", variantIds: [...range(1, 9)], featured: true },
-  { id: "emt-bend", slug: "emt-bend", title: "EMT BEND", variantIds: [...range(10, 15)], featured: true },
-  { id: "emt-clamp-1-hole", slug: "emt-clamp-1-hole", title: "EMT CLAMP 1 HOLE", variantIds: [...range(16, 24)], featured: true },
-  { id: "emt-clamp-2-hole", slug: "emt-clamp-2-hole", title: "EMT CLAMP 2 HOLE", variantIds: [...range(25, 31)] },
-  { id: "rigid-clamp-1-hole", slug: "rigid-clamp-1-hole", title: "RIGID CLAMP 1 HOLE", variantIds: [32, 33] },
-  { id: "rigid-clamp-2-hole", slug: "rigid-clamp-2-hole", title: "RIGID CLAMP 2 HOLE", variantIds: [...range(34, 37)] },
-  { id: "rigid-connector", slug: "rigid-connector", title: "RIGID CONNECTOR", variantIds: [...range(38, 44)] },
-  { id: "rigid-coupling", slug: "rigid-coupling", title: "RIGID COUPLING", variantIds: [45, 46, ...range(187, 192)] },
-  { id: "reducer", slug: "reducer", title: "REDUCER", variantIds: [...range(47, 49)] },
-  { id: "emt-box", slug: "emt-box", title: "EMT BOX", variantIds: [...range(50, 52), ...range(55, 60), ...range(80, 86)] },
-  { id: "emt-octogonal-box", slug: "emt-octogonal-box", title: "EMT OCTOGONAL BOX", variantIds: [53, 54] },
-  { id: "ring-box", slug: "ring-box", title: "RING BOX", variantIds: [...range(61, 64)] },
-  { id: "w-p-box", slug: "w-p-box", title: "W/P BOX", variantIds: [...range(65, 68), 71, 72], featured: true },
-  { id: "w-p-deep-box", slug: "w-p-deep-box", title: "W/P DEEP BOX", variantIds: [69, 70, ...range(73, 75)] },
-  { id: "w-p-round-box", slug: "w-p-round-box", title: "W/P ROUND BOX", variantIds: [76] },
-  { id: "w-p-round-box-cover", slug: "w-p-round-box-cover", title: "W/P ROUND BOX COVER", variantIds: [77] },
-  { id: "water-proof-cover", slug: "water-proof-cover", title: "WATER PROOF COVER", variantIds: [78, 79] },
-  { id: "c-channel", slug: "c-channel", title: "C-CHANNEL", variantIds: [...range(87, 92)] },
-  { id: "emt-channel-clamp", slug: "emt-channel-clamp", title: "EMT CHANNEL CLAMP", variantIds: [...range(93, 98)], featured: true },
-  { id: "thread-rod", slug: "thread-rod", title: "THREAD ROD", variantIds: [...range(99, 101)], featured: true },
-  { id: "beam-clamp", slug: "beam-clamp", title: "BEAM CLAMP", variantIds: [...range(102, 104)] },
-  { id: "knock-out-seal", slug: "knock-out-seal", title: "KNOCK OUT SEAL", variantIds: [...range(105, 107)] },
-  { id: "insulated-bushing", slug: "insulated-bushing", title: "INSULATED BUSHING", variantIds: [...range(108, 113)] },
-  { id: "liquid-tight-connector", slug: "liquid-tight-connector", title: "LIQUID TIGHT CONNECTOR", variantIds: [...range(114, 122)] },
-  { id: "liquid-tight-flexible-coupling", slug: "liquid-tight-flexible-coupling", title: "LIQUID TIGHT FLEXIBLE COUPLING", variantIds: [123, 124] },
-  { id: "emt-combination-coupling", slug: "emt-combination-coupling", title: "EMT COMBINATION COUPLING", variantIds: [125, 126] },
-  { id: "copper-corner-coupling", slug: "copper-corner-coupling", title: "COPPER CORNER COUPLING", variantIds: [127] },
-  { id: "emt-hanger-clamp", slug: "emt-hanger-clamp", title: "EMT HANGER CLAMP", variantIds: [128, 129] },
-  { id: "rigid-c-channel-clamp", slug: "rigid-c-channel-clamp", title: "RIGID C-CHANNEL CLAMP", variantIds: [...range(130, 133)] },
-  { id: "rigid-channel-clamp", slug: "rigid-channel-clamp", title: "RIGID CHANNEL CLAMP", variantIds: [134, 135] },
-  { id: "rigid-pull-elbow", slug: "rigid-pull-elbow", title: "RIGID PULL ELBOW", variantIds: [136, 137] },
-  { id: "emt-pull-elbow", slug: "emt-pull-elbow", title: "EMT PULL ELBOW", variantIds: [...range(138, 140)] },
-  { id: "emt-bender", slug: "emt-bender", title: "EMT BENDER", variantIds: [...range(141, 144)] },
-  { id: "rigid-bend", slug: "rigid-bend", title: "RIGID BEND", variantIds: [...range(145, 148)] },
-  { id: "end-cap", slug: "end-cap", title: "END CAP", variantIds: [149, 150] },
-  { id: "pvc-spring-bender", slug: "pvc-spring-bender", title: "PVC SPRING BENDER", variantIds: [...range(151, 153)] },
-  { id: "rigid-base-clamp", slug: "rigid-base-clamp", title: "RIGID BASE CLAMP", variantIds: [154, 155] },
-  { id: "pvc-box", slug: "pvc-box", title: "PVC BOX", variantIds: [156] },
-  { id: "pulling-wire-mcs", slug: "pulling-wire-mcs", title: "PULLING WIRE MCS", variantIds: [...range(157, 159)] },
-  { id: "pvc-adaptor", slug: "pvc-adaptor", title: "PVC ADAPTOR", variantIds: [...range(160, 163), ...range(168, 171)] },
-  { id: "pvc-coupling", slug: "pvc-coupling", title: "PVC COUPLING", variantIds: [...range(164, 167), 172, 173] },
-  { id: "pvc-bend", slug: "pvc-bend", title: "PVC BEND", variantIds: [...range(174, 177)] },
-  { id: "pvc-sadlle-with-base", slug: "pvc-sadlle-with-base", title: "PVC SADLLE WITH BASE", variantIds: [178] },
-  { id: "sub-duct-coupling", slug: "sub-duct-coupling", title: "SUB DUCT COUPLING", variantIds: [179] },
-  { id: "liquid-tight-angle-connector", slug: "liquid-tight-angle-connector", title: "LIQUID TIGHT ANGLE CONNECTOR", variantIds: [180, 181] },
-  { id: "hole-closer", slug: "hole-closer", title: "HOLE CLOSER", variantIds: [...range(182, 184)] },
-  { id: "steel-flexible-angle-connector", slug: "steel-flexible-angle-connector", title: "STEEL FLEXIBLE ANGLE CONNECTOR", variantIds: [185, 186] },
-  { id: "emt-compression-connector", slug: "emt-compression-connector", title: "EMT COMPRESSION CONNECTOR", variantIds: [...range(193, 195)] },
-  { id: "emt-compression-coupling", slug: "emt-compression-coupling", title: "EMT COMPRESSION COUPLING", variantIds: [...range(196, 198)] },
-  { id: "enlarger", slug: "enlarger", title: "ENLARGER", variantIds: [...range(199, 201)] },
-  { id: "emt-cover", slug: "emt-cover", title: "EMT COVER", variantIds: [...range(202, 206)] },
-  { id: "plastic-gland", slug: "plastic-gland", title: "PLASTIC GLAND", variantIds: [...range(207, 210)] },
-  { id: "insulator", slug: "insulator", title: "INSULATOR", variantIds: [...range(211, 213)] },
-  { id: "steel-cable-tie", slug: "steel-cable-tie", title: "STEEL CABLE TIE", variantIds: [...range(214, 217)] },
-  { id: "steel-cable-pvc-coated-pssct", slug: "steel-cable-pvc-coated-pssct", title: "STEEL CABLE PVC COATED PSSCT", variantIds: [...range(218, 220)] },
-  { id: "cable-marker", slug: "cable-marker", title: "CABLE MARKER", variantIds: [...range(221, 224), ...range(253, 260)] },
-  { id: "tie-mount", slug: "tie-mount", title: "TIE MOUNT", variantIds: [225, 226] },
-  { id: "plastic-connector", slug: "plastic-connector", title: "PLASTIC CONNECTOR", variantIds: [...range(227, 229)] },
-  { id: "h-type-plastic-strip-connector", slug: "h-type-plastic-strip-connector", title: "H type PLASTIC STRIP CONNECTOR", variantIds: [...range(230, 235)] },
-  { id: "group-holder", slug: "group-holder", title: "GROUP HOLDER", variantIds: [236, 237] },
-  { id: "end-stopper", slug: "end-stopper", title: "END STOPPER", variantIds: [238] },
-  { id: "jumber-link-flat-type", slug: "jumber-link-flat-type", title: "JUMBER LINK FLAT TYPE", variantIds: [239, 240] },
-  { id: "wire-connector", slug: "wire-connector", title: "WIRE CONNECTOR", variantIds: [...range(241, 246)] },
-  { id: "wire-nut", slug: "wire-nut", title: "WIRE NUT", variantIds: [...range(247, 252)] },
-  { id: "spiral", slug: "spiral", title: "SPIRAL", variantIds: [...range(261, 268)] },
-  { id: "terminal-lugs-crimper", slug: "terminal-lugs-crimper", title: "TERMINAL LUGS CRIMPER", variantIds: [...range(269, 271)] },
-  { id: "boot-lugs-crimping-tools", slug: "boot-lugs-crimping-tools", title: "BOOT LUGS CRIMPING TOOLS", variantIds: [...range(272, 274)] },
-  { id: "terminal-lugs-crimping-tools", slug: "terminal-lugs-crimping-tools", title: "TERMINAL LUGS CRIMPING TOOLS", variantIds: [275] },
-  { id: "cable-lugs-crimping-tools", slug: "cable-lugs-crimping-tools", title: "CABLE LUGS CRIMPING TOOLS", variantIds: [276, 277] },
-  { id: "wire-stripper", slug: "wire-stripper", title: "WIRE STRIPPER", variantIds: [278] },
-  { id: "cat-6-cable-crimping-tool", slug: "cat-6-cable-crimping-tool", title: "CAT-6 CABLE CRIMPING TOOL", variantIds: [279] },
-  { id: "hydrualic-crimping-tools", slug: "hydrualic-crimping-tools", title: "HYDRUALIC CRIMPING TOOLS", variantIds: [280] },
-  { id: "steel-floor-box", slug: "steel-floor-box", title: "STEEL FLOOR BOX", variantIds: [281, 282] },
-  { id: "din-rail", slug: "din-rail", title: "DIN RAIL", variantIds: [283, 284] },
-  { id: "shrink-tube", slug: "shrink-tube", title: "SHRINK TUBE", variantIds: [...range(285, 305)] },
-  { id: "ferroling-marking-tube", slug: "ferroling-marking-tube", title: "FERROLING MARKING TUBE", variantIds: [...range(306, 320)] },
-  { id: "earth-rod", slug: "earth-rod", title: "EARTH ROD", variantIds: [...range(321, 324)] },
-  { id: "u-bolt-clamp", slug: "u-bolt-clamp", title: "U BOLT CLAMP", variantIds: [325] },
-  { id: "copper-clamp-one-hole-clip", slug: "copper-clamp-one-hole-clip", title: "COPPER CLAMP ONE HOLE CLIP", variantIds: [...range(326, 329)] },
-  { id: "copper-bonded-earth-plate", slug: "copper-bonded-earth-plate", title: "COPPER BONDED EARTH PLATE", variantIds: [330] },
-  { id: "earth-rod-clamp", slug: "earth-rod-clamp", title: "EARTH ROD CLAMP", variantIds: [...range(331, 333)] },
-  { id: "brass-air-base", slug: "brass-air-base", title: "BRASS AIR BASE", variantIds: [334] },
-  { id: "brass-multi-point", slug: "brass-multi-point", title: "BRASS MULTI POINT", variantIds: [335] },
-  { id: "neutral-link", slug: "neutral-link", title: "NEUTRAL LINK", variantIds: [336] },
-  { id: "emt-connector-w-ul-mark", slug: "emt-connector-w-ul-mark", title: "EMT CONNECTOR W/UL MARK", variantIds: [...range(337, 345)] },
-  { id: "emt-coupling-w-ul-mark", slug: "emt-coupling-w-ul-mark", title: "EMT COUPLING W/UL MARK", variantIds: [...range(346, 354)] },
-  { id: "emt-steel-flexible-connector", slug: "emt-steel-flexible-connector", title: "EMT STEEL FLEXIBLE CONNECTOR", variantIds: [...range(355, 361)] },
-  { id: "zinc-locknut", slug: "zinc-locknut", title: "ZINC LOCKNUT", variantIds: [...range(362, 365)] },
-  { id: "chase-nipple", slug: "chase-nipple", title: "CHASE NIPPLE", variantIds: [366, 367] },
-  { id: "pvc-mcb-breaker-box", slug: "pvc-mcb-breaker-box", title: "PVC MCB BREAKER BOX", variantIds: [...range(368, 371)] },
-  { id: "angle-l-type", slug: "angle-l-type", title: "ANGLE L TYPE", variantIds: [372, 373] },
-  { id: "base-plate", slug: "base-plate", title: "BASE PLATE", variantIds: [374, 375] },
-  { id: "cable-lugs", slug: "cable-lugs", title: "CABLE LUGS", variantIds: [...range(376, 416), ...range(424, 441)] },
-  { id: "pin-type-lugs-flat-type", slug: "pin-type-lugs-flat-type", title: "PIN TYPE LUGS - FLAT TYPE", variantIds: [...range(417, 423)] },
-  { id: "aluminium-cable-lugs", slug: "aluminium-cable-lugs", title: "ALUMINIUM CABLE LUGS", variantIds: [442] },
-  { id: "mcb-breaker-cable-lugs", slug: "mcb-breaker-cable-lugs", title: "MCB BREAKER CABLE LUGS", variantIds: [...range(443, 455)] },
-  { id: "bimetalic-cable-lugs", slug: "bimetalic-cable-lugs", title: "BIMETALIC CABLE LUGS", variantIds: [...range(456, 476)] },
-  { id: "compression-sleeve-lugs", slug: "compression-sleeve-lugs", title: "COMPRESSION SLEEVE LUGS", variantIds: [...range(477, 488)] },
-  { id: "brass-cable-gland", slug: "brass-cable-gland", title: "BRASS CABLE GLAND", variantIds: [...range(489, 516)] },
-  { id: "brass-ss-cable-gland", slug: "brass-ss-cable-gland", title: "BRASS SS CABLE GLAND", variantIds: [...range(517, 523)] },
-  { id: "emt-flexible-hose", slug: "emt-flexible-hose", title: "EMT FLEXIBLE HOSE", variantIds: [...range(524, 534)] },
-  { id: "liquid-tight-flexible-hose", slug: "liquid-tight-flexible-hose", title: "LIQUID TIGHT FLEXIBLE HOSE", variantIds: [...range(535, 545)] },
-  { id: "cat-6-cable", slug: "cat-6-cable", title: "CAT - 6 CABLE", variantIds: [546] },
-  { id: "fire-alarm-cable", slug: "fire-alarm-cable", title: "FIRE ALARM CABLE", variantIds: [547] },
-  { id: "ftth-wifi-fiber-cable", slug: "ftth-wifi-fiber-cable", title: "FTTH WIFI FIBER CABLE", variantIds: [548] },
-  { id: "pvc-flexible-hose-orange", slug: "pvc-flexible-hose-orange", title: "PVC FLEXIBLE HOSE ORANGE", variantIds: [549, 550] },
-  { id: "rigid-compression-connector", slug: "rigid-compression-connector", title: "RIGID COMPRESSION CONNECTOR", variantIds: [...range(551, 553)] },
-  { id: "rigid-compression-coupling", slug: "rigid-compression-coupling", title: "RIGID COMPRESSION COUPLING", variantIds: [554, 555] },
-  { id: "pvc-trunking", slug: "pvc-trunking", title: "PVC TRUNKING", variantIds: [...range(556, 564)] },
-  { id: "pvc-floor-trunking", slug: "pvc-floor-trunking", title: "PVC FLOOR TRUNKING", variantIds: [...range(565, 574)] },
-  { id: "pvc-sloted-trunking", slug: "pvc-sloted-trunking", title: "PVC SLOTED TRUNKING", variantIds: [...range(575, 582)] },
-  { id: "pvc-junction-box", slug: "pvc-junction-box", title: "PVC JUNCTION BOX", variantIds: [...range(583, 586)] },
-  { id: "cable-tie", slug: "cable-tie", title: "CABLE TIE", variantIds: [...range(587, 607)] },
-  { id: "conduit-body-aluminuim-thread-type", slug: "conduit-body-aluminuim-thread-type", title: "CONDUIT BODY - ALUMINUIM THREAD TYPE", variantIds: [...range(608, 613)] },
-  { id: "aluminium-conduit-body-t-type", slug: "aluminium-conduit-body-t-type", title: "ALUMINIUM CONDUIT BODY - T TYPE", variantIds: [614, 615] },
-  { id: "rigid-emt-conduit-body", slug: "rigid-emt-conduit-body", title: "RIGID/EMT CONDUIT BODY", variantIds: [...range(616, 623)] },
-  { id: "electrical-cable-roller", slug: "electrical-cable-roller", title: "ELECTRICAL CABLE ROLLER", variantIds: [624, 625] },
-  { id: "waterproof-steel-enclouser-box", slug: "waterproof-steel-enclouser-box", title: "WATERPROOF STEEL ENCLOUSER BOX", variantIds: [...range(626, 637)] },
-  { id: "disconnector-ukf", slug: "disconnector-ukf", title: "DISCONNECTOR UKF", variantIds: [...range(638, 640)] },
-  { id: "w-p-socket-box", slug: "w-p-socket-box", title: "W/P SOCKET BOX", variantIds: [...range(641, 644)] },
-  { id: "waterproof-pvc-box", slug: "waterproof-pvc-box", title: "WATERPROOF PVC BOX", variantIds: [...range(645, 650)] },
-  { id: "pvc-flexible-adaptor-for-italy-alayed-flexible", slug: "pvc-flexible-adaptor-for-italy-alayed-flexible", title: "PVC FLEXIBLE ADAPTOR FOR ITALY,ALAYED FLEXIBLE", variantIds: [...range(651, 656)] },
-  { id: "plastic-cable-gland", slug: "plastic-cable-gland", title: "PLASTIC CABLE GLAND", variantIds: [...range(657, 667)] },
-  { id: "hook-type-lugs", slug: "hook-type-lugs", title: "HOOK TYPE LUGS", variantIds: [...range(668, 670)] },
-  { id: "flat-blade-type", slug: "flat-blade-type", title: "FLAT BLADE TYPE", variantIds: [...range(671, 675)] },
-  { id: "pin-type-lugs", slug: "pin-type-lugs", title: "PIN TYPE LUGS", variantIds: [...range(676, 678)] },
-  { id: "ring-type-lugs", slug: "ring-type-lugs", title: "RING TYPE LUGS", variantIds: [...range(679, 684)] },
-  { id: "u-type-lugs", slug: "u-type-lugs", title: "U TYPE LUGS", variantIds: [...range(685, 689)] },
-  { id: "cord-end-ternminals", slug: "cord-end-ternminals", title: "CORD END TERNMINALS", variantIds: [...range(690, 706)] },
-  { id: "steel-hole-saw", slug: "steel-hole-saw", title: "STEEL HOLE SAW", variantIds: [...range(707, 718)] },
-  { id: "hss-stainless-steel-drill-bits", slug: "hss-stainless-steel-drill-bits", title: "HSS STAINLESS STEEL DRILL BITS", variantIds: [...range(719, 725)] },
-  { id: "hilti-hammer-concrete-drill-bits", slug: "hilti-hammer-concrete-drill-bits", title: "HILTI HAMMER CONCRETE DRILL BITS", variantIds: [...range(726, 729)] },
-  { id: "cutting-disc", slug: "cutting-disc", title: "CUTTING DISC", variantIds: [730] },
-  { id: "w-p-connector-ip68", slug: "w-p-connector-ip68", title: "W/P CONNECTOR IP68", variantIds: [...range(731, 733)] },
-  { id: "w-p-connector-t-type-ip68", slug: "w-p-connector-t-type-ip68", title: "W/P CONNECTOR T TYPE IP68", variantIds: [734, 735] },
-  { id: "w-p-junction-box-ip68", slug: "w-p-junction-box-ip68", title: "W/P JUNCTION BOX IP68", variantIds: [...range(736, 738)] },
-  { id: "brother-catridge", slug: "brother-catridge", title: "BROTHER CATRIDGE", variantIds: [...range(739, 742)] },
-  { id: "casio-catridge", slug: "casio-catridge", title: "CASIO CATRIDGE", variantIds: [...range(743, 746)] },
-  { id: "cable-joint-kit", slug: "cable-joint-kit", title: "CABLE JOINT KIT", variantIds: [...range(747, 749)] },
-];
 
+  { id: "emt-conduit-pipe", slug: "emt-conduit-pipe", title: "EMT CONDUIT PIPE", variantIds: [...range(1, 9)], featured: true },
+
+  { id: "emt-bend", slug: "emt-bend", title: "EMT BEND", variantIds: [...range(10, 15)], featured: true },
+
+  { id: "emt-clamp-1-hole", slug: "emt-clamp-1-hole", title: "EMT CLAMP 1 HOLE", variantIds: [...range(16, 24)], featured: true },
+
+  { id: "emt-clamp-2-hole", slug: "emt-clamp-2-hole", title: "EMT CLAMP 2 HOLE", variantIds: [...range(25, 31)] },
+
+  { id: "rigid-clamp-1-hole", slug: "rigid-clamp-1-hole", title: "RIGID CLAMP 1 HOLE", variantIds: [...range(32, 33)] },
+
+  { id: "rigid-clamp-2-hole", slug: "rigid-clamp-2-hole", title: "RIGID CLAMP 2 HOLE", variantIds: [...range(34, 37)] },
+
+  { id: "rigid-connector-hub-type", slug: "rigid-connector-hub-type", title: "RIGID CONNECTOR HUB TYPE", variantIds: [38] },
+
+  { id: "rigid-connector-screw-type", slug: "rigid-connector-screw-type", title: "RIGID CONNECTOR SCREW TYPE", variantIds: [...range(39, 44)] },
+
+  { id: "rigid-coupling-screw-type", slug: "rigid-coupling-screw-type", title: "RIGID COUPLING SCREW TYPE", variantIds: [...range(45, 46)] },
+
+  { id: "rigid-coupling", slug: "rigid-coupling", title: "RIGID COUPLING", variantIds: [...range(187, 192)] },
+
+  { id: "reducer", slug: "reducer", title: "REDUCER", variantIds: [...range(47, 49)] },
+
+  { id: "emt-box-10x10", slug: "emt-box-10x10", title: "EMT BOX 10X10", variantIds: [...range(50, 52)] },
+
+  { id: "emt-box-10x10-deep", slug: "emt-box-10x10-deep", title: "EMT BOX 10X10 CM DEEP", variantIds: [...range(55, 58)] },
+
+  { id: "emt-box-5x10", slug: "emt-box-5x10", title: "EMT BOX 5X10", variantIds: [...range(59, 60)] },
+
+  { id: "emt-box", slug: "emt-box", title: "EMT BOX", variantIds: [...range(80, 86)] },
+
+
+  { id: "emt-octogonal-box", slug: "emt-octogonal-box", title: "EMT OCTOGONAL BOX", variantIds: [...range(53, 54)] },
+
+  { id: "ring-box", slug: "ring-box", title: "RING BOX", variantIds: [...range(61, 64)] },
+
+  { id: "w-p-box", slug: "w-p-box", title: "W/P BOX", variantIds: [...range(65, 75)], featured: true },
+
+  { id: "w-p-round-box", slug: "w-p-round-box", title: "W/P ROUND BOX", variantIds: [76] },
+
+  { id: "w-p-round-box-cover", slug: "w-p-round-box-cover", title: "W/P ROUND BOX COVER", variantIds: [77] },
+
+  { id: "water-proof-cover", slug: "water-proof-cover", title: "WATER PROOF COVER", variantIds: [...range(78, 79)] },
+
+  { id: "c-channel", slug: "c-channel", title: "C-CHANNEL", variantIds: [...range(87, 92)] },
+
+  { id: "emt-channel-clamp", slug: "emt-channel-clamp", title: "EMT CHANNEL CLAMP", variantIds: [...range(93, 98)], featured: true },
+
+  { id: "thread-rod", slug: "thread-rod", title: "THREAD ROD", variantIds: [...range(99, 101)], featured: true },
+
+  { id: "beam-clamp", slug: "beam-clamp", title: "BEAM CLAMP", variantIds: [...range(102, 104)] },
+
+  { id: "knock-out-seal", slug: "knock-out-seal", title: "KNOCK OUT SEAL", variantIds: [...range(105, 107)] },
+
+  { id: "insulated-bushing", slug: "insulated-bushing", title: "INSULATED BUSHING", variantIds: [...range(108, 113)] },
+
+  { id: "liquid-tight-connector", slug: "liquid-tight-connector", title: "LIQUID TIGHT CONNECTOR", variantIds: [...range(114, 122)] },
+
+  { id: "liquid-tight-flexible-coupling", slug: "liquid-tight-flexible-coupling", title: "LIQUID TIGHT FLEXIBLE COUPLING", variantIds: [...range(123, 124)] },
+
+  { id: "emt-combination-coupling", slug: "emt-combination-coupling", title: "EMT COMBINATION COUPLING", variantIds: [...range(125, 126)] },
+
+  { id: "copper-corner-coupling", slug: "copper-corner-coupling", title: "COPPER CORNER COUPLING", variantIds: [127] },
+
+  { id: "emt-hanger-clamp", slug: "emt-hanger-clamp", title: "EMT HANGER CLAMP", variantIds: [...range(128, 129)] },
+
+  { id: "rigid-c-channel-clamp", slug: "rigid-c-channel-clamp", title: "RIGID C-CHANNEL CLAMP", variantIds: [...range(130, 133)] },
+
+  { id: "rigid-channel-clamp", slug: "rigid-channel-clamp", title: "RIGID CHANNEL CLAMP", variantIds: [...range(134, 135)] },
+
+  { id: "rigid-pull-elbow", slug: "rigid-pull-elbow", title: "RIGID PULL ELBOW", variantIds: [...range(136, 137)] },
+
+  { id: "emt-pull-elbow", slug: "emt-pull-elbow", title: "EMT PULL ELBOW", variantIds: [...range(138, 140)] },
+
+  { id: "emt-bender", slug: "emt-bender", title: "EMT BENDER", variantIds: [...range(141, 143)] },
+
+  { id: "emt-bender-black", slug: "emt-bender-black", title: "EMT BENDER BLACK", variantIds: [144] },
+
+
+  { id: "rigid-bend", slug: "rigid-bend", title: "RIGID BEND", variantIds: [...range(145, 148)] },
+
+  { id: "end-cap", slug: "end-cap", title: "END CAP", variantIds: [...range(149, 150)] },
+
+  { id: "pvc-spring-bender", slug: "pvc-spring-bender", title: "PVC SPRING BENDER", variantIds: [...range(151, 153)] },
+
+  { id: "rigid-base-clamp", slug: "rigid-base-clamp", title: "RIGID BASE CLAMP", variantIds: [...range(154, 155)] },
+
+  { id: "pvc-box", slug: "pvc-box", title: "PVC BOX", variantIds: [156] },
+
+  { id: "pulling-wire-mcs", slug: "pulling-wire-mcs", title: "PULLING WIRE MCS", variantIds: [...range(157, 159)] },
+
+  { id: "pvc-adaptor-fa", slug: "pvc-adaptor-fa", title: "PVC ADAPTOR FA", variantIds: [...range(160, 161)] },
+
+  { id: "pvc-adaptor-fafa", slug: "pvc-adaptor-fafa", title: "PVC ADAPTOR FAFA", variantIds: [...range(162, 163)] },
+
+{ id: "pvc-flexible-adaptor-ad-25", slug: "pvc-flexible-adaptor-ad-25", title: "PVC FLEXIBLE ADAPTOR", variantIds: [750] },
+
+  { id: "pvc-adaptor", slug: "pvc-adaptor", title: "PVC ADAPTOR", variantIds: [...range(168, 171)] },
+
+
+  { id: "pvc-coupling", slug: "pvc-coupling", title: "PVC COUPLING", variantIds: [...range(164, 167)] },
+
+  { id: "pvc-coupling-white", slug: "pvc-coupling-white", title: "PVC COUPLING WHITE", variantIds: [...range(172, 173)] },
+
+
+  { id: "pvc-bend", slug: "pvc-bend", title: "PVC BEND", variantIds: [...range(174, 177)] },
+
+  { id: "pvc-sadlle-with-base", slug: "pvc-sadlle-with-base", title: "PVC SADLLE WITH BASE", variantIds: [178] },
+
+  { id: "sub-duct-coupling", slug: "sub-duct-coupling", title: "SUB DUCT COUPLING", variantIds: [179] },
+
+  { id: "liquid-tight-angle-connector", slug: "liquid-tight-angle-connector", title: "LIQUID TIGHT ANGLE CONNECTOR", variantIds: [...range(180, 181)] },
+
+  { id: "hole-closer", slug: "hole-closer", title: "HOLE CLOSER", variantIds: [...range(182, 184)] },
+
+  { id: "steel-flexible-angle-connector", slug: "steel-flexible-angle-connector", title: "STEEL FLEXIBLE ANGLE CONNECTOR", variantIds: [...range(185, 186)] },
+
+  { id: "emt-compression-connector", slug: "emt-compression-connector", title: "EMT COMPRESSION CONNECTOR", variantIds: [...range(193, 195)] },
+
+  { id: "emt-compression-coupling", slug: "emt-compression-coupling", title: "EMT COMPRESSION COUPLING", variantIds: [...range(196, 198)] },
+
+  { id: "enlarger", slug: "enlarger", title: "ENLARGER", variantIds: [...range(199, 201)] },
+
+  { id: "emt-cover", slug: "emt-cover", title: "EMT COVER", variantIds: [...range(202, 206)] },
+
+  { id: "plastic-gland", slug: "plastic-gland", title: "PLASTIC GLAND", variantIds: [...range(207, 210)] },
+
+  { id: "insulator", slug: "insulator", title: "INSULATOR", variantIds: [...range(211, 213)] },
+
+  { id: "steel-cable-tie", slug: "steel-cable-tie", title: "STEEL CABLE TIE", variantIds: [...range(214, 217)] },
+
+  { id: "steel-cable-pvc-coated-pssct", slug: "steel-cable-pvc-coated-pssct", title: "STEEL CABLE PVC COATED PSSCT", variantIds: [...range(218, 220)] },
+
+{ id: "cable-marker-strip-black", slug: "cable-marker-strip-black", title: "CABLE MARKER STRIP BLACK", variantIds: [...range(221, 222)] },
+
+{ id: "cable-marker-strip-white", slug: "cable-marker-strip-white", title: "CABLE MARKER STRIP WHITE", variantIds: [...range(223, 224)] },
+
+
+  { id: "tie-mount", slug: "tie-mount", title: "TIE MOUNT", variantIds: [...range(225, 226)] },
+
+  { id: "plastic-connector", slug: "plastic-connector", title: "PLASTIC CONNECTOR", variantIds: [...range(227, 229)] },
+
+  { id: "h-type-plastic-strip-connector", slug: "h-type-plastic-strip-connector", title: "H type PLASTIC STRIP CONNECTOR", variantIds: [...range(230, 235)] },
+
+  { id: "group-holder", slug: "group-holder", title: "GROUP HOLDER", variantIds: [...range(236, 237)] },
+
+  { id: "end-stopper", slug: "end-stopper", title: "END STOPPER", variantIds: [238] },
+
+  { id: "jumber-link-flat-type", slug: "jumber-link-flat-type", title: "JUMBER LINK FLAT TYPE", variantIds: [...range(239, 240)] },
+
+  { id: "wire-connector", slug: "wire-connector", title: "WIRE CONNECTOR", variantIds: [...range(241, 246)] },
+
+  { id: "wire-nut", slug: "wire-nut", title: "WIRE NUT", variantIds: [...range(247, 252)] },
+
+  { id: "cable-marker", slug: "cable-marker", title: "CABLE MARKER", variantIds: [...range(253, 260)] },
+
+  { id: "spiral", slug: "spiral", title: "SPIRAL", variantIds: [...range(261, 268)] },
+
+{ id: "terminal-lugs-crimper-th-03c", slug: "terminal-lugs-crimper-th-03c", title: "TERMINAL LUGS CRIMPER TH-03C", variantIds: [269] },
+
+{ id: "terminal-lugs-crimper-thc8-6-6", slug: "terminal-lugs-crimper-thc8-6-6", title: "TERMINAL LUGS CRIMPER THC8 6-6", variantIds: [270] },
+
+{ id: "terminal-lugs-crimper-thc8-6-4", slug: "terminal-lugs-crimper-thc8-6-4", title: "TERMINAL LUGS CRIMPER THC8 6-4", variantIds: [271] },
+
+  { id: "boot-lugs-crimping-tools", slug: "boot-lugs-crimping-tools", title: "BOOT LUGS CRIMPING TOOLS", variantIds: [...range(272, 274)] },
+
+  { id: "terminal-lugs-crimping-tools", slug: "terminal-lugs-crimping-tools", title: "TERMINAL LUGS CRIMPING TOOLS", variantIds: [275] },
+
+  { id: "cable-lugs-crimping-tools", slug: "cable-lugs-crimping-tools", title: "CABLE LUGS CRIMPING TOOLS", variantIds: [...range(276, 277)] },
+
+  { id: "wire-stripper", slug: "wire-stripper", title: "WIRE STRIPPER", variantIds: [278] },
+
+  { id: "cat-6-cable-crimping-tool", slug: "cat-6-cable-crimping-tool", title: "CAT-6 CABLE CRIMPING TOOL", variantIds: [279] },
+
+  { id: "hydrualic-crimping-tools", slug: "hydrualic-crimping-tools", title: "HYDRUALIC CRIMPING TOOLS", variantIds: [280] },
+
+  { id: "steel-floor-box", slug: "steel-floor-box", title: "STEEL FLOOR BOX", variantIds: [...range(281, 282)] },
+
+  { id: "din-rail", slug: "din-rail", title: "DIN RAIL", variantIds: [...range(283, 284)] },
+
+  { id: "shrink-tube", slug: "shrink-tube", title: "SHRINK TUBE", variantIds: [...range(285, 295)] },
+
+  { id: "shrink-tube-yg", slug: "shrink-tube-yg", title: "SHRINK TUBE Y/G", variantIds: [...range(296, 305)] },
+
+
+  { id: "ferroling-marking-tube", slug: "ferroling-marking-tube", title: "FERROLING MARKING TUBE", variantIds: [...range(306, 320)] },
+
+  { id: "earth-rod", slug: "earth-rod", title: "EARTH ROD", variantIds: [...range(321, 324)] },
+
+  { id: "u-bolt-clamp", slug: "u-bolt-clamp", title: "U BOLT CLAMP", variantIds: [325] },
+
+  { id: "copper-clamp-one-hole-clip", slug: "copper-clamp-one-hole-clip", title: "COPPER CLAMP ONE HOLE CLIP", variantIds: [...range(326, 329)] },
+
+  { id: "copper-bonded-earth-plate", slug: "copper-bonded-earth-plate", title: "COPPER BONDED EARTH PLATE", variantIds: [330] },
+
+  { id: "earth-rod-clamp-o-type", slug: "earth-rod-clamp-o-type", title: "EARTH ROD CLAMP O TYPE", variantIds: [331] },
+
+  { id: "earth-rod-clamp-g-type", slug: "earth-rod-clamp-g-type", title: "EARTH ROD CLAMP G TYPE", variantIds: [...range(332, 333)] },
+
+
+  { id: "brass-air-base", slug: "brass-air-base", title: "BRASS AIR BASE", variantIds: [334] },
+
+  { id: "brass-multi-point", slug: "brass-multi-point", title: "BRASS MULTI POINT", variantIds: [335] },
+
+  { id: "neutral-link", slug: "neutral-link", title: "NEUTRAL LINK", variantIds: [336] },
+
+  { id: "emt-connector-w-ul-mark", slug: "emt-connector-w-ul-mark", title: "EMT CONNECTOR W/UL MARK", variantIds: [...range(337, 345)] },
+
+  { id: "emt-coupling-w-ul-mark", slug: "emt-coupling-w-ul-mark", title: "EMT COUPLING W/UL MARK", variantIds: [...range(346, 354)] },
+
+  { id: "emt-steel-flexible-connector", slug: "emt-steel-flexible-connector", title: "EMT STEEL FLEXIBLE CONNECTOR", variantIds: [...range(355, 361)] },
+
+  { id: "zinc-locknut", slug: "zinc-locknut", title: "ZINC LOCKNUT", variantIds: [...range(362, 365)] },
+
+  { id: "chase-nipple", slug: "chase-nipple", title: "CHASE NIPPLE", variantIds: [...range(366, 367)] },
+
+  { id: "pvc-mcb-breaker-box", slug: "pvc-mcb-breaker-box", title: "PVC MCB BREAKER BOX", variantIds: [...range(368, 371)] },
+
+  { id: "angle-l-type", slug: "angle-l-type", title: "ANGLE L TYPE", variantIds: [...range(372, 373)] },
+
+  { id: "base-plate", slug: "base-plate", title: "BASE PLATE", variantIds: [...range(374, 375)] },
+
+  { id: "cable-lugs", slug: "cable-lugs", title: "CABLE LUGS", variantIds: [...range(376, 416)] },
+
+  { id: "cable-lugs-standard", slug: "cable-lugs-standard", title: "CABLE LUGS STANDARD", variantIds: [...range(424, 425)] },
+
+  { id: "cable-lugs-2-hole", slug: "cable-lugs-2-hole", title: "CABLE LUGS 2 HOLE", variantIds: [...range(426, 436)] },
+
+  { id: "cable-lugs-4-hole", slug: "cable-lugs-4-hole", title: "CABLE LUGS 4 HOLE", variantIds: [...range(437, 441)] },
+
+
+  { id: "pin-type-lugs-flat-type", slug: "pin-type-lugs-flat-type", title: "PIN TYPE LUGS - FLAT TYPE", variantIds: [...range(417, 423)] },
+
+  { id: "aluminium-cable-lugs", slug: "aluminium-cable-lugs", title: "ALUMINIUM CABLE LUGS", variantIds: [442] },
+
+  { id: "mcb-breaker-cable-lugs", slug: "mcb-breaker-cable-lugs", title: "MCB BREAKER CABLE LUGS", variantIds: [...range(443, 455)] },
+
+  { id: "bimetalic-cable-lugs", slug: "bimetalic-cable-lugs", title: "BIMETALIC CABLE LUGS", variantIds: [...range(456, 476)] },
+
+  { id: "compression-sleeve-lugs", slug: "compression-sleeve-lugs", title: "COMPRESSION SLEEVE LUGS", variantIds: [...range(477, 488)] },
+
+  { id: "brass-cable-gland", slug: "brass-cable-gland", title: "BRASS CABLE GLAND", variantIds: [...range(489, 516)] },
+
+  { id: "brass-ss-cable-gland", slug: "brass-ss-cable-gland", title: "BRASS SS CABLE GLAND", variantIds: [...range(517, 523)] },
+
+  { id: "emt-flexible-hose", slug: "emt-flexible-hose", title: "EMT FLEXIBLE HOSE", variantIds: [...range(524, 534)] },
+
+  { id: "liquid-tight-flexible-hose", slug: "liquid-tight-flexible-hose", title: "LIQUID TIGHT FLEXIBLE HOSE", variantIds: [...range(535, 545)] },
+
+  { id: "cat-6-cable", slug: "cat-6-cable", title: "CAT - 6 CABLE", variantIds: [546] },
+
+  { id: "fire-alarm-cable", slug: "fire-alarm-cable", title: "FIRE ALARM CABLE", variantIds: [547] },
+
+  { id: "ftth-wifi-fiber-cable", slug: "ftth-wifi-fiber-cable", title: "FTTH WIFI FIBER CABLE", variantIds: [548] },
+
+  { id: "pvc-flexible-hose-orange", slug: "pvc-flexible-hose-orange", title: "PVC FLEXIBLE HOSE ORANGE", variantIds: [...range(549, 550)] },
+
+  { id: "rigid-compression-connector", slug: "rigid-compression-connector", title: "RIGID COMPRESSION CONNECTOR", variantIds: [...range(551, 553)] },
+
+  { id: "rigid-compression-coupling", slug: "rigid-compression-coupling", title: "RIGID COMPRESSION COUPLING", variantIds: [...range(554, 555)] },
+
+  { id: "pvc-trunking", slug: "pvc-trunking", title: "PVC TRUNKING", variantIds: [...range(556, 564)] },
+
+  { id: "pvc-floor-trunking-white", slug: "pvc-floor-trunking-white", title: "PVC FLOOR TRUNKING WHITE", variantIds: [...range(565, 569)] },
+
+  { id: "pvc-floor-trunking-grey", slug: "pvc-floor-trunking-grey", title: "PVC FLOOR TRUNKING GREY", variantIds: [...range(570, 574)] },
+
+
+  { id: "pvc-sloted-trunking", slug: "pvc-sloted-trunking", title: "PVC SLOTED TRUNKING", variantIds: [...range(575, 582)] },
+
+  { id: "pvc-junction-box", slug: "pvc-junction-box", title: "PVC JUNCTION BOX", variantIds: [...range(583, 586)] },
+
+  { id: "cable-tie", slug: "cable-tie", title: "CABLE TIE", variantIds: [...range(587, 607)] },
+
+  { id: "conduit-body-aluminuim-thread-type", slug: "conduit-body-aluminuim-thread-type", title: "CONDUIT BODY - ALUMINUIM THREAD TYPE", variantIds: [...range(608, 613)] },
+
+  { id: "aluminium-conduit-body-t-type", slug: "aluminium-conduit-body-t-type", title: "ALUMINIUM CONDUIT BODY - T TYPE", variantIds: [...range(614, 615)] },
+
+  { id: "rigid-emt-conduit-body", slug: "rigid-emt-conduit-body", title: "RIGID/EMT CONDUIT BODY", variantIds: [...range(616, 623)] },
+
+  { id: "electrical-cable-roller", slug: "electrical-cable-roller", title: "ELECTRICAL CABLE ROLLER", variantIds: [...range(624, 625)] },
+
+  { id: "waterproof-steel-enclouser-box", slug: "waterproof-steel-enclouser-box", title: "WATERPROOF STEEL ENCLOUSER BOX", variantIds: [...range(626, 637)] },
+
+  { id: "disconnector-ukf", slug: "disconnector-ukf", title: "DISCONNECTOR UKF", variantIds: [...range(638, 640)] },
+
+  { id: "w-p-socket-box", slug: "w-p-socket-box", title: "W/P SOCKET BOX", variantIds: [...range(641, 644)] },
+
+  { id: "waterproof-pvc-box", slug: "waterproof-pvc-box", title: "WATERPROOF PVC BOX", variantIds: [...range(645, 650)] },
+
+  { id: "pvc-flexible-adaptor-for-italy-alayed-flexible", slug: "pvc-flexible-adaptor-for-italy-alayed-flexible", title: "PVC FLEXIBLE ADAPTOR FOR ITALY,ALAYED FLEXIBLE", variantIds: [...range(651, 656)] },
+
+  { id: "plastic-cable-gland", slug: "plastic-cable-gland", title: "PLASTIC CABLE GLAND", variantIds: [...range(657, 667)] },
+
+  { id: "hook-type-lugs", slug: "hook-type-lugs", title: "HOOK TYPE LUGS", variantIds: [...range(668, 670)] },
+
+  { id: "flat-blade-type", slug: "flat-blade-type", title: "FLAT BLADE TYPE", variantIds: [...range(671, 675)] },
+
+  { id: "pin-type-lugs", slug: "pin-type-lugs", title: "PIN TYPE LUGS", variantIds: [...range(676, 678)] },
+
+  { id: "ring-type-lugs", slug: "ring-type-lugs", title: "RING TYPE LUGS", variantIds: [...range(679, 684)] },
+
+  { id: "u-type-lugs", slug: "u-type-lugs", title: "U TYPE LUGS", variantIds: [...range(685, 689)] },
+
+  { id: "cord-end-ternminals-taiwan", slug: "cord-end-ternminals-taiwan", title: "CORD END TERNMINALS TAIWAN", variantIds: [...range(690, 695)] },
+
+  { id: "cord-end-ternminals-china", slug: "cord-end-ternminals-china", title: "CORD END TERNMINALS CHINA", variantIds: [...range(696, 706)] },
+
+
+  { id: "steel-hole-saw", slug: "steel-hole-saw", title: "STEEL HOLE SAW", variantIds: [...range(707, 718)] },
+
+  { id: "hss-stainless-steel-drill-bits", slug: "hss-stainless-steel-drill-bits", title: "HSS STAINLESS STEEL DRILL BITS", variantIds: [...range(719, 725)] },
+
+  { id: "hilti-hammer-concrete-drill-bits", slug: "hilti-hammer-concrete-drill-bits", title: "HILTI HAMMER CONCRETE DRILL BITS", variantIds: [...range(726, 729)] },
+
+  { id: "cutting-disc", slug: "cutting-disc", title: "CUTTING DISC", variantIds: [730] },
+
+  { id: "w-p-connector-ip68", slug: "w-p-connector-ip68", title: "W/P CONNECTOR IP68", variantIds: [...range(731, 733)] },
+
+  { id: "w-p-connector-t-type-ip68", slug: "w-p-connector-t-type-ip68", title: "W/P CONNECTOR T TYPE IP68", variantIds: [...range(734, 735)] },
+
+  { id: "w-p-junction-box-ip68", slug: "w-p-junction-box-ip68", title: "W/P JUNCTION BOX IP68", variantIds: [...range(736, 738)] },
+
+  { id: "brother-catridge", slug: "brother-catridge", title: "BROTHER CATRIDGE", variantIds: [...range(739, 742)] },
+
+  { id: "casio-catridge", slug: "casio-catridge", title: "CASIO CATRIDGE", variantIds: [...range(743, 746)] },
+
+  { id: "cable-joint-kit", slug: "cable-joint-kit", title: "CABLE JOINT KIT", variantIds: [...range(747, 749)] },
+
+  {
+    id: "pin-type-lugs-black-insulated",
+    slug: "pin-type-lugs-black-insulated",
+    title: "PIN TYPE LUGS BLACK INSULATED",
+    variantIds: [751],
+  },
+
+  { id: "compact-splicing-connector", slug: "compact-splicing-connector", title: "COMPACT SPLICING CONNECTOR", variantIds: [...range(752, 754)] },
+  { id: "newtral-link-8way-with-base", slug: "newtral-link-8way-with-base", title: "NEWTRAL LINK 8WAY 8X12 WITH BASE", variantIds: [755] },
+  { id: "newtral-link-8way-without-base", slug: "newtral-link-8way-without-base", title: "NEWTRAL LINK 8WAY 8X12 WITHOUT BASE", variantIds: [756] },
+  { id: "shrink-tube-heavy-duty-hv-mv", slug: "shrink-tube-heavy-duty-hv-mv", title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR", variantIds: [...range(757, 772)] },
+  { id: "aluminium-cable-cleat-atc", slug: "aluminium-cable-cleat-atc", title: "ALUMINIUM CABLE CLEAT ATC", variantIds: [...range(773, 780)] },
+  { id: "aluminium-trefoil-cable-cleat-atfc", slug: "aluminium-trefoil-cable-cleat-atfc", title: "ALUMINIUM TREFOIL CABLE CLEAT ATFC", variantIds: [...range(781, 782)] },
+  { id: "pvc-grommet", slug: "pvc-grommet", title: "PVC GROMMET", variantIds: [...range(783, 785)] },
+  { id: "printer-c-280t", slug: "printer-c-280t", title: "PRINTER C-280T", variantIds: [786] },
+  { id: "ribbon-lb-280-black", slug: "ribbon-lb-280-black", title: "RIBBON LB-280 BLACK", variantIds: [787] },
+  { id: "shrink-tube-end-cap", slug: "shrink-tube-end-cap", title: "SHRINK TUBE END CAP", variantIds: [...range(788, 799)] },
+  { id: "base-plate-800", slug: "base-plate-800", title: "BASE PLATE", variantIds: [800, 801] },
+  { id: "base-plate-double-channel", slug: "base-plate-double-channel", title: "BASE PLATE DOUBLE CHANNEL", variantIds: [802] },
+];
 const catalogueById = new Map(catalogue.map((item) => [item.id, item]));
 
 function getImageMeta(id: number) {
@@ -1149,12 +1430,12 @@ function getSpecification(fullTitle: string, productTitle: string) {
 
 function validateGroups() {
   const ids = groups.flatMap((group) => [...group.variantIds]);
-  if (ids.length !== 749) {
-    throw new Error(`Expected 749 catalogue variants, received ${ids.length}`);
+  if (ids.length !== 802) {
+    throw new Error(`Expected 802 catalogue variants, received ${ids.length}`);
   }
   const unique = new Set(ids);
-  if (unique.size !== 749) throw new Error("Duplicate SR.NO. found in product groups");
-  for (let id = 1; id <= 749; id += 1) {
+  if (unique.size !== 802) throw new Error("Duplicate SR.NO. found in product groups");
+  for (let id = 1; id <= 802; id += 1) {
     if (!unique.has(id)) throw new Error(`SR.NO. ${id} is not assigned to a product family`);
   }
 }
