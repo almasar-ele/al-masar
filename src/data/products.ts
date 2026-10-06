@@ -1395,7 +1395,9 @@ const groups: readonly ProductGroup[] = [
     variantIds: [751],
   },
 
-  { id: "compact-splicing-connector", slug: "compact-splicing-connector", title: "COMPACT SPLICING CONNECTOR", variantIds: [...range(752, 754)] },
+  { id: "compact-splicing-connector-pct-412", slug: "compact-splicing-connector-pct-412", title: "COMPACT SPLICING CONNECTOR PCT-412", variantIds: [752] },
+  { id: "compact-splicing-connector-pct-413", slug: "compact-splicing-connector-pct-413", title: "COMPACT SPLICING CONNECTOR PCT-413", variantIds: [753] },
+  { id: "compact-splicing-connector-pct-414", slug: "compact-splicing-connector-pct-414", title: "COMPACT SPLICING CONNECTOR PCT-414", variantIds: [754] },
   { id: "newtral-link-8way-with-base", slug: "newtral-link-8way-with-base", title: "NEWTRAL LINK 8WAY 8X12 WITH BASE", variantIds: [755] },
   { id: "newtral-link-8way-without-base", slug: "newtral-link-8way-without-base", title: "NEWTRAL LINK 8WAY 8X12 WITHOUT BASE", variantIds: [756] },
   { id: "shrink-tube-heavy-duty-hv-mv", slug: "shrink-tube-heavy-duty-hv-mv", title: "SHRINK TUBE HEAVY DUTY HV/MV 1.22 MTR", variantIds: [...range(757, 772)] },
@@ -1405,7 +1407,8 @@ const groups: readonly ProductGroup[] = [
   { id: "printer-c-280t", slug: "printer-c-280t", title: "PRINTER C-280T", variantIds: [786] },
   { id: "ribbon-lb-280-black", slug: "ribbon-lb-280-black", title: "RIBBON LB-280 BLACK", variantIds: [787] },
   { id: "shrink-tube-end-cap", slug: "shrink-tube-end-cap", title: "SHRINK TUBE END CAP", variantIds: [...range(788, 799)] },
-  { id: "base-plate-800", slug: "base-plate-800", title: "BASE PLATE", variantIds: [800, 801] },
+  { id: "base-plate-15x15-cm", slug: "base-plate-15x15-cm", title: "BASE PLATE 15X15 CM", variantIds: [800] },
+  { id: "base-plate-8x15-cm", slug: "base-plate-8x15-cm", title: "BASE PLATE 8X15 CM", variantIds: [801] },
   { id: "base-plate-double-channel", slug: "base-plate-double-channel", title: "BASE PLATE DOUBLE CHANNEL", variantIds: [802] },
 ];
 const catalogueById = new Map(catalogue.map((item) => [item.id, item]));
