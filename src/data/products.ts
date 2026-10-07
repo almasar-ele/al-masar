@@ -442,8 +442,6 @@ const catalogue: readonly CatalogueItem[] = [
   { id: 371, title: "PVC MCB BREAKER BOX 12 WAY HT-12" },
   { id: 372, title: "ANGLE L TYPE 2 HOLE" },
   { id: 373, title: "ANGLE L TYPE 4 HOLE" },
-  { id: 374, title: "BASE PLATE 15X15 CM" },
-  { id: 375, title: "BASE PLATE 8X15 CM" },
   { id: 376, title: "CABLE LUGS 6-6" },
   { id: 377, title: "CABLE LUGS 6-8" },
   { id: 378, title: "CABLE LUGS 6-10" },
@@ -908,8 +906,7 @@ const imageRanges: readonly ImageRange[] = [
   { start: 123, end: 124, image: "/images/products/product-123.jpg", mainCategory: "Flexible Conduit" },
   { start: 125, end: 126, image: "/images/products/product-125.jpg", mainCategory: "Conduit & Fittings" },
   { start: 127, end: 127, image: "/images/products/product-127.jpg", mainCategory: "Conduit & Fittings" },
-  { start: 128, end: 129, image: "/images/products/product-128.jpg", mainCategory: "Support Systems" },
-  { start: 130, end: 135, image: "/images/products/product-128.jpg", mainCategory: "Support Systems" },
+  { start: 128, end: 135, image: "/images/products/product-128.jpg", mainCategory: "Support Systems" },
   { start: 136, end: 137, image: "/images/products/product-136.jpg", mainCategory: "Conduit & Fittings" },
   { start: 138, end: 140, image: "/images/products/product-138.jpg", mainCategory: "Conduit & Fittings" },
   { start: 141, end: 143, image: "/images/products/product-141.jpg", mainCategory: "Tools & Accessories" },
@@ -982,7 +979,6 @@ const imageRanges: readonly ImageRange[] = [
   { start: 366, end: 367, image: "/images/products/product-366.jpg", mainCategory: "Conduit & Fittings" },
   { start: 368, end: 371, image: "/images/products/product-368.jpg", mainCategory: "Boxes & Enclosures" },
   { start: 372, end: 373, image: "/images/products/product-372.jpg", mainCategory: "Support Systems" },
-  { start: 374, end: 375, image: "/images/products/product-374.jpg", mainCategory: "Support Systems" },
   { start: 376, end: 416, image: "/images/products/product-376.jpg", mainCategory: "Glands & Lugs" },
   { start: 417, end: 423, image: "/images/products/product-417.jpg", mainCategory: "Glands & Lugs" },
   { start: 424, end: 425, image: "/images/products/product-424.jpg", mainCategory: "Glands & Lugs" },
@@ -995,21 +991,23 @@ const imageRanges: readonly ImageRange[] = [
   { start: 489, end: 516, image: "/images/products/product-489.jpg", mainCategory: "Glands & Lugs" },
   { start: 517, end: 523, image: "/images/products/product-517.jpg", mainCategory: "Glands & Lugs" },
   { start: 524, end: 534, image: "/images/products/product-524.jpg", mainCategory: "Flexible Conduit" },
-  { start: 535, end: 546, image: "/images/products/product-535.jpg", mainCategory: "Flexible Conduit" },
+  { start: 535, end: 545, image: "/images/products/product-535.jpg", mainCategory: "Flexible Conduit" },
+  { start: 546, end: 546, image: "/images/products/product-546.jpg", mainCategory: "Cable Management" },
   { start: 547, end: 547, image: "/images/products/product-547.jpg", mainCategory: "Cable Management" },
   { start: 548, end: 548, image: "/images/products/product-548.jpg", mainCategory: "Cable Management" },
   { start: 549, end: 550, image: "/images/products/product-549.jpg", mainCategory: "Flexible Conduit" },
   { start: 551, end: 553, image: "/images/products/product-551.jpg", mainCategory: "Conduit & Fittings" },
   { start: 554, end: 555, image: "/images/products/product-554.jpg", mainCategory: "Conduit & Fittings" },
-  { start: 556, end: 569, image: "/images/products/product-556.jpg", mainCategory: "Cable Management" },
+  { start: 556, end: 557, image: "/images/products/product-556.jpg", mainCategory: "Cable Management" },
+  { start: 558, end: 564, image: "/images/products/product-558.jpg", mainCategory: "Cable Management" },
+  { start: 565, end: 569, image: "/images/products/product-565.jpg", mainCategory: "Cable Management" },
   { start: 570, end: 574, image: "/images/products/product-570.jpg", mainCategory: "Cable Management" },
   { start: 575, end: 582, image: "/images/products/product-575.jpg", mainCategory: "Cable Management" },
   { start: 583, end: 586, image: "/images/products/product-583.jpg", mainCategory: "Boxes & Enclosures" },
   { start: 587, end: 607, image: "/images/products/product-587.jpg", mainCategory: "Cable Management" },
-  { start: 608, end: 613, image: "/images/products/product-608.jpg", mainCategory: "Conduit & Fittings" },
-  { start: 614, end: 615, image: "/images/products/product-614.jpg", mainCategory: "Conduit & Fittings" },
-  { start: 616, end: 623, image: "/images/products/product-616.jpg", mainCategory: "Conduit & Fittings" },
-  { start: 624, end: 625, image: "/images/products/product-624.jpg", mainCategory: "Cable Management" },
+  { start: 608, end: 623, image: "/images/products/product-608.jpg", mainCategory: "Conduit & Fittings" },
+  { start: 624, end: 624, image: "/images/products/product-624.jpg", mainCategory: "Tools & Accessories" },
+  { start: 625, end: 625, image: "/images/products/product-625.jpg", mainCategory: "Tools & Accessories" },
   { start: 626, end: 637, image: "/images/products/product-626.jpg", mainCategory: "Boxes & Enclosures" },
   { start: 638, end: 640, image: "/images/products/product-638.jpg", mainCategory: "Circuit Protection" },
   { start: 641, end: 644, image: "/images/products/product-641.jpg", mainCategory: "Boxes & Enclosures" },
@@ -1277,11 +1275,9 @@ const groups: readonly ProductGroup[] = [
 
   { id: "pvc-mcb-breaker-box", slug: "pvc-mcb-breaker-box", title: "PVC MCB BREAKER BOX", variantIds: [...range(368, 371)] },
 
-  { id: "angle-l-type", slug: "angle-l-type", title: "ANGLE L TYPE", variantIds: [...range(372, 373)] },
+  { id: "angle-l-type", slug: "angle-l-type", title: "ANGLE L TYPE", variantIds: [...range(372, 373)] },
 
-  { id: "base-plate", slug: "base-plate", title: "BASE PLATE", variantIds: [...range(374, 375)] },
-
-  { id: "cable-lugs", slug: "cable-lugs", title: "CABLE LUGS", variantIds: [...range(376, 416)] },
+  { id: "cable-lugs", slug: "cable-lugs", title: "CABLE LUGS", variantIds: [...range(376, 416)] },
 
   { id: "cable-lugs-standard", slug: "cable-lugs-standard", title: "CABLE LUGS STANDARD", variantIds: [...range(424, 425)] },
 
@@ -1306,9 +1302,19 @@ const groups: readonly ProductGroup[] = [
 
   { id: "emt-flexible-hose", slug: "emt-flexible-hose", title: "EMT FLEXIBLE HOSE", variantIds: [...range(524, 534)] },
 
-  { id: "liquid-tight-flexible-hose", slug: "liquid-tight-flexible-hose", title: "LIQUID TIGHT FLEXIBLE HOSE", variantIds: [...range(535, 545)] },
+  {
+    id: "liquid-tight-flexible-hose",
+    slug: "liquid-tight-flexible-hose",
+    title: "LIQUID TIGHT FLEXIBLE HOSE",
+    variantIds: [...range(535, 545)]
+  },
 
-  { id: "cat-6-cable", slug: "cat-6-cable", title: "CAT - 6 CABLE", variantIds: [546] },
+  {
+    id: "cat-6-cable-belden-copy-9565",
+    slug: "cat-6-cable-belden-copy-9565",
+    title: "CAT - 6 CABLE BELDEN COPY 9565",
+    variantIds: [546]
+  },
 
   { id: "fire-alarm-cable", slug: "fire-alarm-cable", title: "FIRE ALARM CABLE", variantIds: [547] },
 
@@ -1320,11 +1326,33 @@ const groups: readonly ProductGroup[] = [
 
   { id: "rigid-compression-coupling", slug: "rigid-compression-coupling", title: "RIGID COMPRESSION COUPLING", variantIds: [...range(554, 555)] },
 
-  { id: "pvc-trunking", slug: "pvc-trunking", title: "PVC TRUNKING", variantIds: [...range(556, 564)] },
+  {
+    id: "pvc-trunking-white-with-red-sticker",
+    slug: "pvc-trunking-white-with-red-sticker",
+    title: "PVC TRUNKING WHITE WITH RED STICKER",
+    variantIds: [556, 557]
+  },
 
-  { id: "pvc-floor-trunking-white", slug: "pvc-floor-trunking-white", title: "PVC FLOOR TRUNKING WHITE", variantIds: [...range(565, 569)] },
+  {
+    id: "pvc-trunking-3-mtr-white",
+    slug: "pvc-trunking-3-mtr-white",
+    title: "PVC TRUNKING 3 MTR WHITE",
+    variantIds: [...range(558, 564)]
+  },
 
-  { id: "pvc-floor-trunking-grey", slug: "pvc-floor-trunking-grey", title: "PVC FLOOR TRUNKING GREY", variantIds: [...range(570, 574)] },
+  {
+    id: "pvc-floor-trunking-white-with-red-sticker",
+    slug: "pvc-floor-trunking-white-with-red-sticker",
+    title: "PVC FLOOR TRUNKING WHITE WITH RED STICKER",
+    variantIds: [...range(565, 569)]
+  },
+
+  {
+    id: "pvc-floor-trunking-grey-with-red-sticker",
+    slug: "pvc-floor-trunking-grey-with-red-sticker",
+    title: "PVC FLOOR TRUNKING GREY WITH RED STICKER",
+    variantIds: [...range(570, 574)]
+  },
 
 
   { id: "pvc-sloted-trunking", slug: "pvc-sloted-trunking", title: "PVC SLOTED TRUNKING", variantIds: [...range(575, 582)] },
@@ -1333,13 +1361,26 @@ const groups: readonly ProductGroup[] = [
 
   { id: "cable-tie", slug: "cable-tie", title: "CABLE TIE", variantIds: [...range(587, 607)] },
 
-  { id: "conduit-body-aluminuim-thread-type", slug: "conduit-body-aluminuim-thread-type", title: "CONDUIT BODY - ALUMINUIM THREAD TYPE", variantIds: [...range(608, 613)] },
+  {
+    id: "conduit-body",
+    slug: "conduit-body",
+    title: "CONDUIT BODY",
+    variantIds: [...range(608, 623)]
+  },
 
-  { id: "aluminium-conduit-body-t-type", slug: "aluminium-conduit-body-t-type", title: "ALUMINIUM CONDUIT BODY - T TYPE", variantIds: [...range(614, 615)] },
+  {
+    id: "electrical-cable-roller-150-mm",
+    slug: "electrical-cable-roller-150-mm",
+    title: "ELECTRICAL CABLE ROLLER 150 MM",
+    variantIds: [624]
+  },
 
-  { id: "rigid-emt-conduit-body", slug: "rigid-emt-conduit-body", title: "RIGID/EMT CONDUIT BODY", variantIds: [...range(616, 623)] },
-
-  { id: "electrical-cable-roller", slug: "electrical-cable-roller", title: "ELECTRICAL CABLE ROLLER", variantIds: [...range(624, 625)] },
+  {
+    id: "electrical-cable-roller-3-way",
+    slug: "electrical-cable-roller-3-way",
+    title: "ELECTRICAL CABLE ROLLER 3 WAY",
+    variantIds: [625]
+  },
 
   { id: "waterproof-steel-enclouser-box", slug: "waterproof-steel-enclouser-box", title: "WATERPROOF STEEL ENCLOUSER BOX", variantIds: [...range(626, 637)] },
 
@@ -1431,15 +1472,33 @@ function getSpecification(fullTitle: string, productTitle: string) {
   return full;
 }
 
+const removedDuplicateIds = new Set([374, 375]);
+
 function validateGroups() {
   const ids = groups.flatMap((group) => [...group.variantIds]);
-  if (ids.length !== 802) {
-    throw new Error(`Expected 802 catalogue variants, received ${ids.length}`);
+
+  if (ids.length !== 800) {
+    throw new Error(`Expected 800 active catalogue variants, received ${ids.length}`);
   }
+
   const unique = new Set(ids);
-  if (unique.size !== 802) throw new Error("Duplicate SR.NO. found in product groups");
+
+  if (unique.size !== 800) {
+    throw new Error("Duplicate SR.NO. found in product groups");
+  }
+
   for (let id = 1; id <= 802; id += 1) {
-    if (!unique.has(id)) throw new Error(`SR.NO. ${id} is not assigned to a product family`);
+    if (removedDuplicateIds.has(id)) continue;
+
+    if (!unique.has(id)) {
+      throw new Error(`SR.NO. ${id} is not assigned to a product family`);
+    }
+  }
+
+  for (const removedId of removedDuplicateIds) {
+    if (unique.has(removedId)) {
+      throw new Error(`Removed duplicate SR.NO. ${removedId} is still assigned`);
+    }
   }
 }
 
